@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Invoice.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TestesDois</a> &gt; <a href="index.source.html" class="el_package">com.testes.TestesDois</a> &gt; <span class="el_source">Invoice.java</span></div><h1>Invoice.java</h1><pre class="source lang-java linenums">package com.testes.TestesDois;
+
+public class Invoice {
+	private String numero;
+	private String descricao;
+	private int quantidade;
+	private double preco;
+	
+	public Invoice(String numero, String descricao, int quantidade, double preco) {
+<span class="fc" id="L10">		super();</span>
+<span class="fc bfc" id="L11" title="All 2 branches covered.">		if (quantidade &lt; 0) {</span>
+<span class="fc" id="L12">			quantidade = 0;</span>
+		}
+<span class="fc bfc" id="L14" title="All 2 branches covered.">		if (preco &lt; 0) {</span>
+<span class="fc" id="L15">			preco = 0.0;</span>
+		}
+<span class="fc" id="L17">		this.numero = numero;</span>
+<span class="fc" id="L18">		this.descricao = descricao;</span>
+<span class="fc" id="L19">		this.quantidade = quantidade;</span>
+<span class="fc" id="L20">		this.preco = preco;</span>
+<span class="fc" id="L21">	}</span>
+
+	public String getNumero() {
+<span class="fc" id="L24">		return numero;</span>
+	}
+
+	public void setNumero(String numero) {
+<span class="fc" id="L28">		this.numero = numero;</span>
+<span class="fc" id="L29">	}</span>
+
+	public String getDescricao() {
+<span class="fc" id="L32">		return descricao;</span>
+	}
+
+	public void setDescricao(String descricao) {
+<span class="fc" id="L36">		this.descricao = descricao;</span>
+<span class="fc" id="L37">	}</span>
+
+	public int getQuantidade() {
+<span class="fc" id="L40">		return quantidade;</span>
+	}
+
+	public void setQuantidade(int quantidade) {
+<span class="fc bfc" id="L44" title="All 2 branches covered.">		if (quantidade &lt; 0) {</span>
+<span class="fc" id="L45">			quantidade = 0;</span>
+		}
+<span class="fc" id="L47">		this.quantidade = quantidade;</span>
+<span class="fc" id="L48">	}</span>
+
+	public double getPreco() {
+<span class="fc" id="L51">		return preco;</span>
+	}
+
+	public void setPreco(double preco) {
+<span class="fc bfc" id="L55" title="All 2 branches covered.">		if(preco &lt; 0.0) {</span>
+<span class="fc" id="L56">			preco = 0.0;</span>
+		}
+<span class="fc" id="L58">		this.preco = preco;</span>
+<span class="fc" id="L59">	}</span>
+	
+	public double getInvoiceAmount() {
+<span class="fc" id="L62">		return quantidade*preco;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>
