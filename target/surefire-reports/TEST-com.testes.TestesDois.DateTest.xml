@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.testes.TestesDois.InvoiceTest" time="0" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="com.testes.TestesDois.DateTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+8-Ubuntu-0ubuntu1.20.04"/>
@@ -59,15 +59,11 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getNumeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setQuantidadePositivaTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setDescricaoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="negativePriceSetToZeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setNumeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setPrecoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getDescricaoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setQuantidadeTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setPrecoPositivoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getInvoiceAmountTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="negativeAmountSetToZeroTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="getDiaTest" time="0.003"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="setMesTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="getAnoTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="setDiaTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="displayDateTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="getMesTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.DateTest" name="setAnoTest" time="0"/>
 </testsuite>

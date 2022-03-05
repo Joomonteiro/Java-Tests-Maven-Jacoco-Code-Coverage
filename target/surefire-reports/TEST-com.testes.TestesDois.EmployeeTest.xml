@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="11" failures="0" name="com.testes.TestesDois.InvoiceTest" time="0" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.testes.TestesDois.EmployeeTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+8-Ubuntu-0ubuntu1.20.04"/>
@@ -59,15 +59,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getNumeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setQuantidadePositivaTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setDescricaoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="negativePriceSetToZeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setNumeroTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setPrecoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getDescricaoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setQuantidadeTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="setPrecoPositivoTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="getInvoiceAmountTest" time="0"/>
-  <testcase classname="com.testes.TestesDois.InvoiceTest" name="negativeAmountSetToZeroTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="negativeSalaryTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="getFirstNameTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="setLastNameTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="setSalaryTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="setFirstNameTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="increaseSalaryTest" time="0.001"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="setNegativeSalaryTest" time="0"/>
+  <testcase classname="com.testes.TestesDois.EmployeeTest" name="getLastNameTest" time="0"/>
 </testsuite>
